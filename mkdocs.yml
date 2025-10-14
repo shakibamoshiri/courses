@@ -1,0 +1,131 @@
+site_name: Shakiba Moshiri Course List
+
+site_url: https://courses.shakiba.net/
+
+
+theme:
+  name: material
+  icon:
+    logo: material/movie-roll
+    favicon: assets/images/favicon.png
+  features:
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tabs
+    - navigation.path
+    - navigation.indexes
+    - navigation.footer
+    - navigation.expand
+    - navigation.sections
+    - header.autohide
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: black
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: amber
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+
+nav:
+  - Hi: index.md
+  - Linux:
+    - Linux:
+      - en/linux/index.md
+      - linux iperf3 overview:
+        - en/linux/iperf3/index.md
+        - intro: en/linux/iperf3/01.md
+        - compile: en/linux/iperf3/02.md
+        - cli-options: en/linux/iperf3/03.md
+        - local-test: en/linux/iperf3/04.md
+      - en/linux/iproute2/fa.overview.md
+      - en/linux/iproute2/fa.advanced.md
+  - Security:
+    - en/security/index.md
+  - VPS:
+    - VPS:
+      - en/vps/index.md
+      - VPN and Proxies overview:
+        - en/vps/lvps/index.md
+      - sing-box proxy overview:
+        - en/vps/singbox/overview/index.md
+        - prerequisite: en/vps/singbox/overview/01.md
+      - sing-box proxy advanced:
+        - en/vps/singbox/advanced/index.md
+        - en/vps/singbox/advanced/m1.md
+        - en/vps/singbox/advanced/m2.md
+        - en/vps/singbox/advanced/m3.md
+  - Software:
+    - en/software/index.md
+    - en/software/ddd/overview.md
+  - Contact:
+    - en/contact/index.md
+
+
+extra:
+  generator: false
+  social:
+    - name: Github
+      icon: material/github
+      link: https://github.com/shakibamoshiri
+    - name: Lindedin
+      icon: material/linkedin
+      link: https://www.linkedin.com/in/shakiba-moshiri/
+    - name: Telegram
+      icon: simple/telegram
+      link: https://t.me/shakibamoshiri
+    - name: Email
+      icon: material/email
+      link: info@example.com
+
+copyright: >
+  Copyright &copy; 20XX Shakiba Moshiri
+
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - abbr
+  - admonition
+  - attr_list
+  - md_in_html
+  - footnotes
+  - def_list
+  - tables
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.magiclink
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
