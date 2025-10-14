@@ -6,6 +6,14 @@ icon: octicons/feed-issue-open-16
 
 Course content of sing-box proxy advanced
 
+!!! warning
+    The module content or title of videos may change. And probably you
+    see slightly different title on YouTube
+
+!!! note
+    Each module will be added to a separate video-playlist 
+
+
 ## Module 1 (review)
 - introduction and prerequisite
 - alternative modern proxies overview (clash, xray, hy2)

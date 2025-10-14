@@ -11,14 +11,26 @@ Here are some one them
 
 - VPNs
     - OpenConnect (ocserv)
+        - Cisco anyconnect protocol
     - SoftEther 4/5
+        - openvpn
+        - SSTP
+        - L2TP
+    - Nebula (mesh network)
+    - Tinc (mesh network)
     - WireGuard
     - SSH
-- Proxies
+        - tun mode
+        - tap mode
+- Proxies (forwards)
     - SSH
     - Xray
-    - Hysteria  2
+    - Hysteria2
     - SingBox 
+- Proxies (reverse)
+    - HaProxy
+    - Nginx
+
 
 Also I have written CLIs to manage them using [Bash]() or [Nodejs]()
 
