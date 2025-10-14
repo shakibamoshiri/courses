@@ -131,9 +131,11 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
 plugins:
+  - search
+  - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
   - git-committers:
       repository: shakibamoshiri/courses
-      branch: gh-pages
+      branch: master
