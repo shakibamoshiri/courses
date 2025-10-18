@@ -69,9 +69,19 @@ nav:
   - Software:
     - en/software/index.md
     - en/software/ddd/overview.md
+  - Membership:
+    - en/membership/index.md
+    - en/membership/free.md
+    - en/membership/non-free.md
+    - en/membership/support.md
+    - en/membership/bill.md
+    - en/membership/access.md
   - Contact:
     - en/contact/index.md
 
+
+extra_css:
+  - stylesheets/extra.css
 
 extra:
   generator: false
@@ -130,7 +140,7 @@ markdown_extensions:
 
 plugins:
   - search
-  - git-authors
+  # - git-authors
   - git-revision-date-localized:
       enable_creation_date: true
       type: date
