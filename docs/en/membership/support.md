@@ -1,8 +1,8 @@
 ---
-icon: material/ticket
+icon: material/forum
 ---
 
-# :material-ticket: Support
+# :material-forum: Support
 
 ## free support
 Comments and questions of all videos and courses will be answered only through 
