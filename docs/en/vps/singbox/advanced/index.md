@@ -14,7 +14,7 @@ Course content of sing-box proxy advanced
     Each module will be added to a separate video-playlist 
 
 
-## Module 1 (review)
+## Module 1 review
 - introduction and prerequisite
 - alternative modern proxies overview (clash, xray, hy2)
 - forward proxies versus reverse proxies
@@ -22,14 +22,14 @@ Course content of sing-box proxy advanced
 - singbox as reverse proxy
 
 
-## Module 2 (tun)
+## Module 2 tun
 - split tunneling
 - full tunneling
 - non-root users
 - L3 versus L4 tun interfaces
 
 
-## Module 3 (DNS)
+## Module 3 DNS
 - dns resolution
 - dns resolution with tun
 - dns hijacking

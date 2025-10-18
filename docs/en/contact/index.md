@@ -4,7 +4,7 @@ icon: material/card-account-details
 
 # :material-card-account-details: Contact
 
-You can contact me using ...
+You can contact me using
 
 - :material-linkedin: Linkedin
 - :simple-telegram: Telegram
