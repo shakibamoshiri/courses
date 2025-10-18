@@ -1,3 +1,8 @@
+
+.md-typeset ol li, .md-typeset ul li {
+    line-height: 1;
+}
+
 [data-md-color-primary=black] {
     /*--md-typeset-a-color: #0000f0;*/
 
@@ -16,10 +21,6 @@
     div.md-copyright__highlight,
     .md-tabs__item--active,
     form.md-header__option{ color: #ffc929; }
-
-    .md-typeset ol li, .md-typeset ul li {
-        line-height: 1;
-    }
 }
 
 [data-md-color-primary=amber] {
