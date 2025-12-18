@@ -86,16 +86,18 @@ Course content of sing-box proxy advanced
 - demo of multi-locations, multi-modes vpn client server
 
 
-## Module 9 coding
-- how to add shadowsocks users on multi-nodes
-- how to delete shadowsocks users on multi-nodes
-- how to stat shadowsocks users on multi-nodes
-- how to init shadowsocks users on multi-nodes
-- how to expire shadowsocks users on multi-nodes
-- how to use telegram API to send notification
-- how to notify shadowsocks users on multi-nodes
-- how to QR shadowsocks users on multi-nodes
-- how to link shadowsocks users on multi-nodes
-- how to manage multi-admins on multi-nodes
-- how to manage servers with telegram bot
+## Module 9 (coding) Bash
+- user management (traffic, expiration, etc)
+- server management (multi-node)
+- agent management
+- data management (database)
 
+!!! note
+    code [https://github.com/shakibamoshiri/prox](https://github.com/shakibamoshiri/prox)
+
+
+## Module 10 (coding) Go
+- user management (traffic, expiration, etc)
+- server management (multi-node)
+- agent management
+- data management (database)
